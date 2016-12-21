@@ -6,7 +6,7 @@
 
 $(document).ready(function() {
   $('.toggle-icons').click(function(event) {
-    if ($(this).text() === 'Show Icons') {
+    if ($('.icon-box').is(':visible')) {
           $('.icon-box').toggle()
           $(this).text('Hide Icons')
       }
